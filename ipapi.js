@@ -78,7 +78,7 @@
    else if(regionName=="Sha Tin"){
    return "沙田"
    } 
-   else if(regionName=="Sai Kung Districtundefined"){
+   else if(regionName=="Sai Kung District Undefined"){
    return "西贡"
    } 
    else 
