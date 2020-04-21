@@ -90,9 +90,9 @@
    else if(para=="DigitalOcean, LLC"){
    return "数字海洋" 
    }
-   else if(para=="HGC Global Communications Limited, HGC"){
-    return "环球电讯" 
-    }
+   else if(para=="HGC Global Communications Limited"){
+   return "环球电讯" 
+   }
    else if(para=="AWS EC2 (us-west-2)"){
    return "亚马逊云" 
    }
