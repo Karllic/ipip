@@ -37,10 +37,10 @@
 
  function Area_check(para) {
    if(para=="中华民国"){
-   return "中华民国"
+   return "台湾"
    } 
    else if(para=="台湾"){
-   return "中华民国"
+   return "台湾"
    } 
    else if(para=="香港"){
    return "香港"
@@ -54,17 +54,8 @@
    if(regionName=="Kowloon"){
    return "九龙"
    } 
-   else if(regionName=="Central"){
+   else if(regionName=="Central and Western District"){
    return "中环"
-   }
-   else if(regionName=="Wan Chai"){
-   return "湾仔"
-   }
-   else if(regionName=="Sha Tin"){
-   return "沙田"
-   else if(regionName=="Noth"){
-   return "北部"
-   }
    }
    else if(regionName=="臺灣省 or 台灣省"){
    return city0
@@ -76,7 +67,16 @@
    return city0
    } 
    else if(regionName=="Tuen Mun"){
+   return "东京"
+   } 
+   else if(regionName=="Tokyo"){
    return "屯门"
+   } 
+   else if(regionName=="Wan Chai"){
+   return "湾仔"
+   } 
+   else if(regionName=="Sha Tin"){
+   return "沙田"
    } 
    else 
    {
