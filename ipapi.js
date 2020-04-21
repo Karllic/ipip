@@ -67,16 +67,19 @@
    return city0
    } 
    else if(regionName=="Tuen Mun"){
-   return "东京"
+   return "屯门"
    } 
    else if(regionName=="Tokyo"){
-   return "屯门"
+   return "东京"
    } 
    else if(regionName=="Wan Chai"){
    return "湾仔"
    } 
    else if(regionName=="Sha Tin"){
    return "沙田"
+   } 
+   else if(regionName=="Sai Kung Districtundefined"){
+   return "西贡"
    } 
    else 
    {
