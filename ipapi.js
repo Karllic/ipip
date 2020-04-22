@@ -72,14 +72,26 @@
    else if(regionName=="Tokyo"){
    return "东京"
    } 
+   else if(regionName=="North"){
+   return "北区"
+   } 
+   else if(regionName=="Tsuen Wan District"){
+   return "荃湾"
+   } 
    else if(regionName=="Wan Chai"){
    return "湾仔"
    } 
    else if(regionName=="Sha Tin"){
    return "沙田"
    } 
-   else if(regionName=="Sai Kung District Undefined"){
+   else if(regionName=="Sai Kung District"){
    return "西贡"
+   } 
+   else if(regionName=="Changhua"){
+   return "彰化市"
+   } 
+   else if(regionName=="Taichung"){
+   return "台中市"
    } 
    else 
    {
