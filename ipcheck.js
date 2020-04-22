@@ -100,7 +100,7 @@
    return "伯力"
    } 
    else if(regionName=="St.-Petersburg"){
-   return "伯圣彼得堡"
+   return "圣彼得堡"
    } 
    else if(regionName=="New South Wales"){
    return "新南威尔士"
