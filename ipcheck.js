@@ -46,7 +46,7 @@
    return "香港"
    } 
    else if(para=="俄罗斯联邦"){
-   return "俄罗斯港"
+   return "俄罗斯"
    } 
    else
    {
