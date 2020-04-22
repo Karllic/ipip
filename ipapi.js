@@ -91,10 +91,13 @@
    return "西贡"
    } 
    else if(regionName=="Changhua"){
-   return "彰化市"
+   return "彰化"
    } 
    else if(regionName=="Taichung City"){
-   return "台中市"
+   return "台中"
+   } 
+   else if(regionName=="台北市"){
+   return "台北"
    } 
    else if(regionName=="Khabarovsk"){
    return "伯力"
