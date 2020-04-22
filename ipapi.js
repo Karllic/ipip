@@ -90,7 +90,7 @@
    else if(regionName=="Changhua"){
    return "彰化市"
    } 
-   else if(regionName=="Taichung"){
+   else if(regionName=="Taichung City"){
    return "台中市"
    } 
    else 
