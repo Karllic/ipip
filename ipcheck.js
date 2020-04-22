@@ -87,6 +87,12 @@
    else if(regionName=="Sai Kung District"){
    return "西贡"
    } 
+   else if(regionName=="Changhua"){
+   return "彰化市"
+   } 
+   else if(regionName=="Taichung"){
+   return "台中市"
+   } 
    else 
    {
    return regionName
