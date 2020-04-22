@@ -90,8 +90,20 @@
    else if(regionName=="Changhua"){
    return "彰化市"
    } 
-   else if(regionName=="Taichung"){
+   else if(regionName=="Taichung City"){
    return "台中市"
+   } 
+   else if(regionName=="Khabarovsk"){
+   return "伯力"
+   } 
+   else if(regionName=="St.-Petersburg"){
+   return "伯圣彼得堡"
+   } 
+   else if(regionName=="New South Wales"){
+   return "新南威尔士"
+   } 
+   else if(regionName=="Hesse"){
+   return "黑森"
    } 
    else 
    {
