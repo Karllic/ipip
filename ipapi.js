@@ -81,6 +81,9 @@
    else if(regionName=="Tsuen Wan District"){
    return "荃湾"
    } 
+   else if(regionName=="Yuen Long District"){
+   return "元朗"
+   } 
    else if(regionName=="Wan Chai"){
    return "湾仔"
    } 
