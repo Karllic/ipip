@@ -138,7 +138,7 @@
    else if(para=="HGC Global Communications Limited"){
    return "环球电讯" 
    }
-   else if(para=="Pccw IMS"){
+   else if(para=="Pccw"){
    return "盈科电讯" 
    }
    else if(para=="AWS EC2 (us-west-2)"){
