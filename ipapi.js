@@ -58,7 +58,7 @@
    return "九龙"
    } 
    else if(regionName=="Central and Western District"){
-   return "中环"
+   return "中西区"
    }
    else if(regionName=="臺灣省 or 台灣省"){
    return city0
@@ -150,7 +150,7 @@
    else if(para=="Newmedia Express PTE LTD"){
    return "新媒体快递" 
    }
-   else if(para=="SonderCloud Limited"){
+   else if(para=="SonderCloud"){
    return "恒创电讯" 
    }
    else
