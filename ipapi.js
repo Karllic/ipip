@@ -87,6 +87,9 @@
    else if(regionName=="Wan Chai"){
    return "湾仔"
    } 
+   else if(regionName=="Eastern"){
+   return "东区"
+   } 
    else if(regionName=="Sha Tin"){
    return "沙田"
    } 
@@ -146,6 +149,9 @@
    }
    else if(para=="Newmedia Express PTE LTD"){
    return "新媒体快递" 
+   }
+   else if(para=="SonderCloud Limited"){
+   return "恒创电讯" 
    }
    else
    {
