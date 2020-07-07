@@ -99,6 +99,9 @@
    else if(regionName=="Sai Kung District"){
    return "西贡"
    } 
+   else if(regionName=="Wong Tai Sin"){
+   return "黄大仙"
+   } 
    else if(regionName=="Changhua"){
    return "彰化"
    } 
