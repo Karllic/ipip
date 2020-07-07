@@ -93,6 +93,9 @@
    else if(regionName=="Sha Tin"){
    return "沙田"
    } 
+   else if(regionName=="Yau Tsim Mong"){
+   return "油尖旺"
+   } 
    else if(regionName=="Sai Kung District"){
    return "西贡"
    } 
