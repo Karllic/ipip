@@ -180,5 +180,5 @@
  var title =flags.get(obj['countryCode']) +Area_check(obj['country'])+City_ValidCheck(obj['regionName']);
 var subtitle =''+'-'+Org_ValidCheck(obj['org']);
 var ip = obj['query'];
-var description = '服务商:'+obj['isp'] +'\n'+'DNS:'+ obj['reverse'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district']+'\n' +'洲际:'+obj['continent'] +'\n'+'IP:'+obj['query'] +'\n' +'托管:'+ obj['hosting'];
-$done({title, subtitle, ip, description})；
+var description = '服务商:'+obj['isp'] + '\n'+'地区:' +City_ValidCheck(obj['regionName'])+ '\n' + 'IP:'+ obj['query'] + '\n' +'时区:'+ obj['timezone'];
+$done({title, subtitle, ip, description});
