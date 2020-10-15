@@ -96,6 +96,9 @@
    else if(regionName=="Sha Tin"){
    return "沙田"
    } 
+   else if(regionName=="Kowloon Bay"){
+   return "九龙湾"
+   } 
    else if(regionName=="Yau Tsim Mong"){
    return "油尖旺"
    } 
