@@ -69,9 +69,6 @@
    else if(regionName=="新加坡"){
    return city0
    } 
-   else if(regionName=="Kwun Tong"){
-   return "观塘"
-   } 
    else if(regionName=="Tuen Mun"){
    return "屯门"
    } 
@@ -128,6 +125,9 @@
    } 
    else if(regionName=="Hesse"){
    return "黑森"
+   else if(regionName=="Kwun Tong"){
+   return "观塘"
+   } 
    } 
    else 
    {
@@ -162,7 +162,7 @@
    else if(para=="Newmedia Express PTE LTD"){
    return "新媒体快递" 
    }
-   else if(para=="Blinkload"){
+   else if(para=="Blinkload Technology Co., Ltd"){
    return "BlinkLoad" 
    }
    else if(para=="SonderCloud"){
