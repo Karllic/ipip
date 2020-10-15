@@ -181,4 +181,4 @@
 var subtitle =''+'-'+Org_ValidCheck(obj['org']);
 var ip = obj['query'];
 var description = '服务商:'+obj['isp'] +'\n'+'DNS:'+ obj['reverse'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district']+'\n' +'洲际:'+obj['continent'] +'\n'+'IP:'+obj['query'] +'\n' +'托管:'+ obj['hosting'];
-$done({title, subtitle, ip, description});
+$done({title, subtitle, ip, description})
