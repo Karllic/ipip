@@ -58,7 +58,7 @@
    return "九龙"
    } 
    else if(regionName=="Central and Western District"){
-   return "中环"
+   return "中西区"
    }
    else if(regionName=="臺灣省 or 台灣省"){
    return city0
@@ -181,7 +181,7 @@
  var body = $response.body;
  var obj = JSON.parse(body);
  var title =flags.get(obj['countryCode']) +Area_check(obj['country'])+City_ValidCheck(obj['regionName']);
-var subtitle =''+'-'+Org_ValidCheck(obj['org']);
+var subtitle =''+'-'+Org_ValidCheck(obj['para']);
 var ip = obj['query'];
 var description = '服务商:'+obj['isp'] +'\n'+'DNS:'+ obj['reverse'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district']+'\n' +'洲际:'+obj['continent'] +'\n'+'IP:'+obj['query'] +'\n' +'托管:'+ obj['hosting'];
 $done({title, subtitle, ip, description});
