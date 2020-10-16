@@ -147,6 +147,9 @@
    else if(orgname=="Chunghwa Telecom Co. Ltd."){
    return "中华电信" 
    }
+   else if(orgname=="Shanghai Huajuan Information Technology Co., Ltd."){
+   return "花卷科技" 
+   }  
    else if(orgname=="Alibaba.com LLC"){
    return "阿里云" 
    }
