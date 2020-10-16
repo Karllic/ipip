@@ -24,9 +24,9 @@
    }
  }
  */
- function ISP_ValidCheck(para) { 
-   if(para) {
-   return para
+ function ISP_ValidCheck(orgname) { 
+   if(orgname) {
+   return orgname
    }
    else
    {
@@ -134,46 +134,40 @@
    return regionName
    }
  }
- function Org_ValidCheck(para) { 
-   if(para=="Microsoft Azure Cloud (eastasia)"){
+ function Org_ValidCheck(orgname) { 
+   if(orgname=="Microsoft Azure Cloud (eastasia)"){
    return "微软云"
    } 
-   else if(para=="Chunghwa Telecom Co. Ltd."){
+   else if(orgname=="Chunghwa Telecom Co. Ltd."){
    return "中华电信" 
    }
-   else if(para=="Alibaba.com LLC"){
+   else if(orgname=="Alibaba.com LLC"){
    return "阿里云服务" 
    }
-   else if(para=="Hong Kong Telecommunications (HKT) Limited"){
+   else if(orgname=="Hong Kong Telecommunications (HKT) Limited"){
    return "香港电讯" 
    }
-   else if(para=="DigitalOcean, LLC"){
+   else if(orgname=="DigitalOcean, LLC"){
    return "数字海洋" 
    }
-   else if(para=="HGC Global Communications Limited"){
+   else if(orgname=="HGC Global Communications Limited"){
    return "环球电讯" 
    }
-   else if(para=="PCCW Limited"){
+   else if(orgname=="PCCW Limited"){
    return "盈科电讯" 
    }
-   else if(para=="AWS EC2 (us-west-2)"){
+   else if(orgname=="AWS EC2 (us-west-2)"){
    return "亚马逊云" 
    }
-   else if(para=="Newmedia Express PTE LTD"){
+   else if(orgname=="Newmedia Express PTE LTD"){
    return "新媒体快递" 
    }
-   else if(para=="Blinkload Technology Co., Ltd"){
-   return "BlinkLoad" 
-   }
-   else if(para=="SonderCloud"){
+   else if(orgname=="SonderCloud"){
    return "恒创电讯" 
-   }
-   else if(para=="Blinkload"){
-   return "BlinkLoad" 
    }
    else
    {
-   return para
+   return orgname
    }
  }
 
@@ -181,7 +175,7 @@
  var body = $response.body;
  var obj = JSON.parse(body);
  var title =flags.get(obj['countryCode']) +Area_check(obj['country'])+City_ValidCheck(obj['regionName']);
-var subtitle =obj['isp'];
+var subtitle =''+'-'+Org_ValidCheck(obj['isp']);
 var ip = obj['query'];
-var description = "国家" + ":" + obj['country'] + '\n' + "城市" + ":" + obj['city'] + '\n' + "运营商" + ":" + obj['isp'] + '\n' + ":" + obj['org'];
+var description = '服务商:'+obj['isp'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district'] +'\n'+'\n'+'IP:'+obj['query'];
 $done({title, subtitle, ip, description});
