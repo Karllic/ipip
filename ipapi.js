@@ -165,7 +165,7 @@
    else if(orgname=="AWS EC2 (us-west-2)"){
    return "亚马逊云" 
    }
-   else if(orgname=="Amazon Technologies INC."){
+   else if(orgname=="Amazon Technologies Inc."){
    return "亚马逊云" 
    }  
    else if(orgname=="Newmedia Express PTE LTD"){
