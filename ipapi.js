@@ -181,7 +181,7 @@
  var body = $response.body;
  var obj = JSON.parse(body);
  var title =flags.get(obj['countryCode']) +Area_check(obj['country'])+City_ValidCheck(obj['regionName']);
-var subtitle =''+'-'+Org_ValidCheck(obj['org']);
+var subtitle =obj['isp'];
 var ip = obj['query'];
-var description = '服务商:'+obj['isp'] +'\n'+'DNS:'+ obj['reverse'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district']+'\n' +'洲际:'+obj['continent'] +'\n'+'IP:'+obj['query'] +'\n' +'托管:'+ obj['hosting'];
+var description = "国家" + ":" + obj['country'] + '\n' + "城市" + ":" + obj['city'] + '\n' + "运营商" + ":" + obj['isp'] + '\n' + ":" + obj['org'];
 $done({title, subtitle, ip, description});
