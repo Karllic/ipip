@@ -54,7 +54,7 @@
    }
  }
  function City_ValidCheck(regionName) {
-   if(regionName=="Kowloon"){
+   if(regionName=="Kowloon City"){
    return "九龙"
    } 
    else if(regionName=="Central and Western District"){
