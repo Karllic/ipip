@@ -138,13 +138,19 @@
    if(orgname=="Microsoft Azure Cloud (eastasia)"){
    return "微软云"
    } 
+   if(orgname=="Microsoft Corporation"){
+   return "微软云"
+   } 
+   if(orgname=="Hong Kong Broadband Network LTD"){
+   return "宽频网络"
+   }     
    else if(orgname=="Chunghwa Telecom Co. Ltd."){
    return "中华电信" 
    }
    else if(orgname=="Alibaba.com LLC"){
    return "阿里云服务" 
    }
-   else if(orgname=="Hong Kong Telecommunications (HKT) Limited"){
+   else if(orgname=="Hong Kong Telecommunications (HKT) Limited Mass Internet"){
    return "香港电讯" 
    }
    else if(orgname=="DigitalOcean, LLC"){
@@ -153,7 +159,7 @@
    else if(orgname=="HGC Global Communications Limited"){
    return "环球电讯" 
    }
-   else if(orgname=="PCCW Limited"){
+   else if(orgname=="PCCW IMS Limited"){
    return "盈科电讯" 
    }
    else if(orgname=="AWS EC2 (us-west-2)"){
@@ -177,5 +183,5 @@
  var title =flags.get(obj['countryCode']) +Area_check(obj['country'])+City_ValidCheck(obj['regionName']);
 var subtitle =''+'-'+Org_ValidCheck(obj['isp']);
 var ip = obj['query'];
-var description = '服务商:'+obj['isp'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district'] +'\n'+'\n'+'IP:'+obj['query'];
+var description = '服务商:'+obj['isp'] +'\n'+'地区:' +City_ValidCheck(obj['regionName'])+obj['district'] +'\n'+'IP:'+obj['query'];
 $done({title, subtitle, ip, description});
