@@ -141,14 +141,14 @@
    if(orgname=="Microsoft Corporation"){
    return "微软云"
    } 
-   if(orgname=="Hong Kong Broadband Network LTD"){
+   if(orgname=="Hong Kong Broadband Network Ltd"){
    return "宽频网络"
    }     
    else if(orgname=="Chunghwa Telecom Co. Ltd."){
    return "中华电信" 
    }
    else if(orgname=="Alibaba.com LLC"){
-   return "阿里云服务" 
+   return "阿里云" 
    }
    else if(orgname=="Hong Kong Telecommunications (HKT) Limited Mass Internet"){
    return "香港电讯" 
@@ -165,6 +165,9 @@
    else if(orgname=="AWS EC2 (us-west-2)"){
    return "亚马逊云" 
    }
+   else if(orgname=="Amazon Technologies INC."){
+   return "亚马逊云" 
+   }  
    else if(orgname=="Newmedia Express PTE LTD"){
    return "新媒体快递" 
    }
