@@ -137,19 +137,22 @@
  function Org_ValidCheck(orgname) { 
    if(orgname=="Microsoft Azure Cloud (eastasia)"){
    return "微软云"
-   } 
+   }
    if(orgname=="Microsoft Corporation"){
    return "微软云"
-   } 
+   }
    if(orgname=="Hong Kong Broadband Network Ltd"){
    return "宽频网络"
-   }     
+   }
    else if(orgname=="Chunghwa Telecom Co. Ltd."){
+   return "中华电信" 
+   }
+   else if(orgname=="Chunghwa Telecom Co., Ltd."){
    return "中华电信" 
    }
    else if(orgname=="Shanghai Huajuan Information Technology Co., Ltd."){
    return "花卷科技" 
-   }  
+   }
    else if(orgname=="Alibaba.com LLC"){
    return "阿里云" 
    }
@@ -170,12 +173,21 @@
    }
    else if(orgname=="Amazon Technologies Inc."){
    return "亚马逊云" 
-   }  
+   }
    else if(orgname=="Newmedia Express PTE LTD"){
    return "新媒体快递" 
    }
    else if(orgname=="SonderCloud"){
    return "恒创电讯" 
+   }
+   else if(orgname=="Oracle Corporation"){
+   return "甲骨文" 
+   }
+   else if(orgname=="HKBN Enterprise Solutions HK Limited"){
+   return "宽频网络" 
+   }
+   else if(orgname=="Blinkload Technology Co., Ltd."){
+   return "Blinkload" 
    }
    else
    {
