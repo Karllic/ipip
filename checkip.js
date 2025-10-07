@@ -14,7 +14,7 @@ $httpClient.get(url, function(error, response, data){
 
   const params = {
     icon: 'mappin.and.ellipse',
-    color: '#f50505'
+    color: '#2578e6'
   };
 
   let body = {
@@ -37,3 +37,4 @@ function getFlagEmoji(countryCode) {
     .map(char => 127397 + char.charCodeAt());
   return String.fromCodePoint(...codePoints);
 }
+
