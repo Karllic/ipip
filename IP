@@ -5,5 +5,5 @@ tiles:
     icon: 'mappin.and.ellipse'
     backgroundColor: '#2578e6'
 script-providers:
-  IPxinxi:
+  IP Info:
     url: https://raw.githubusercontent.com/Karllic/ipip/refs/heads/master/checkip.js
