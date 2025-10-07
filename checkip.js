@@ -19,7 +19,7 @@ $httpClient.get(url, function(error, response, data){
 
   let body = {
     title: "The info",
-    content: `content: `IP：${query}\nISP：${isp}\nASN：${as}\n城市：${city}`,
+    content: `content: `🗺️IP：${query}\n🖥️ISP：${isp}\n#️⃣ASN：${as}\n🌍国家/地区：${emoji}${country}\n🏙城市：${city}`,
     icon: params.icon,
     "icon-color": params.color
   };
@@ -37,6 +37,7 @@ function getFlagEmoji(countryCode) {
     .map(char => 127397 + char.charCodeAt());
   return String.fromCodePoint(...codePoints);
 }
+
 
 
 
