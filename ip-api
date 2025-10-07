@@ -1,0 +1,9 @@
+name: IP信息
+desc: IP信息面板
+tiles:
+  - name: IP Info
+    icon: 'mappin.and.ellipse'
+    backgroundColor: '#2578e6'
+script-providers:
+  IP Info:
+    url: https://raw.githubusercontent.com/Karllic/ipip/refs/heads/master/checkip.js
